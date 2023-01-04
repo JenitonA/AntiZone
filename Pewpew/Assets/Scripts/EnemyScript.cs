@@ -45,6 +45,7 @@ public class EnemyScript : MonoBehaviour
         if (hitpoints <= 0)
         {
             Destroy(gameObject);
+            Score.instance.addPoints();
         }
     }
 }

@@ -26,6 +26,11 @@ public class PlayerMovement : MonoBehaviour
 
         healthbar.setHealth(health, maxHealth);
 
+        if (health <= 0)
+        {
+            FindObjectOfType<GameManager>().endGame();
+        }
+
 
     }
 
@@ -46,7 +51,6 @@ public class PlayerMovement : MonoBehaviour
         if (collision.gameObject.tag == "Enemy")
         {
             health -= 5;
-            Debug.Log(health);
         }
     }
 }

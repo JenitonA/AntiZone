@@ -5,10 +5,10 @@ public class Score : MonoBehaviour
 {
     public static Score instance;
 
-    private EnemyScript enemy;
+
     public Text scoreText;
 
-    int score = 0;
+    public static int score = 0;
 
     private void Awake()
     {
@@ -17,7 +17,7 @@ public class Score : MonoBehaviour
 
     void Start()
     {
-        enemy = enemy.GetComponent<EnemyScript>();
+      
   
     }
 

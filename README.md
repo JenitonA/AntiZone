@@ -1,2 +1,2 @@
 # AntiZone
-An top down survival shooter unity game made in C#
+designed and developed an immersive top-down survival shooter game using Unity, leveraging the power of the Universal Render Pipeline (URP) to achieve stunning visual fidelity. 

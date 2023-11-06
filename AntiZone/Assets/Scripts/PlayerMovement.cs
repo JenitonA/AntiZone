@@ -51,6 +51,7 @@ public class PlayerMovement : MonoBehaviour
         if (collision.gameObject.tag == "Enemy")
         {
             health -= 5;
+            FindObjectOfType<audioManager>().Play("Hurt");
         }
     }
 }

@@ -15,6 +15,8 @@ public class GameManager : MonoBehaviour
         if (gameOver == false)
         {
             Debug.Log("GAME OVER");
+            FindObjectOfType<audioManager>().Stop("Theme");
+            FindObjectOfType<audioManager>().Play("GameOver");
             gameOver = true;
             canvas.enabled = false;
             restartScreen.enabled = true;

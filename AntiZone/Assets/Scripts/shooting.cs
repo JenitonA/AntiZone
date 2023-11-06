@@ -12,8 +12,8 @@ public class shooting : MonoBehaviour
     public float bulletForce = 20f;
 
      void Shoot()
-    {   
-
+    {
+        FindObjectOfType<audioManager>().Play("LaserShot");
         GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
         bullet.transform.Rotate(0f, 0f, 90f);
         Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();

@@ -2580,8 +2580,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sounds:
   - name: Theme
-    clip: {fileID: 8300000, guid: e727aaf2548cb044aa070a437a9eddcf, type: 3}
-    volume: 0.044
+    clip: {fileID: 8300000, guid: 8a5f3473de438f8489898e00b4cc4ba7, type: 3}
+    volume: 0.48
     pitch: 1
     loop: 1
     source: {fileID: 0}
@@ -2594,6 +2594,18 @@ MonoBehaviour:
   - name: Hurt
     clip: {fileID: 8300000, guid: cd3844c2f8d96fe4589f1daf3e537b03, type: 3}
     volume: 0.022
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Intro
+    clip: {fileID: 8300000, guid: 53163f99ea38c49489b92f1714079e52, type: 3}
+    volume: 0.48
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: LaserShot
+    clip: {fileID: 8300000, guid: 918ffffd3a044a140be24d60c04097d1, type: 3}
+    volume: 0.044
     pitch: 1
     loop: 0
     source: {fileID: 0}

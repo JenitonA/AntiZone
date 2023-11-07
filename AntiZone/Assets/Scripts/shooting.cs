@@ -31,5 +31,7 @@ public class shooting : MonoBehaviour
             Shoot();
             canFire = Time.time + fireRate;
         }
+
+        
     }
 }
